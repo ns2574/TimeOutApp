@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TimeOut/SettingsView.swift"
+            timestampString = "438644025.153948"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "SettingsView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TimeOut.SettingsView.init (TimeOut.SettingsView.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; TimeOut.SettingsView"
+                  moduleName = "TimeOut"
+                  urlString = "file:///Users/shinycroospulle/Desktop/IOS%20%22TimeOut%22/TimeOut/TimeOut/SettingsView.swift"
+                  timestampString = "438656948.53318"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "370">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TimeOut.SettingsView.init (TimeOut.SettingsView.Type)() -&gt; TimeOut.SettingsView"
+                  moduleName = "TimeOut"
+                  urlString = "file:///Users/shinycroospulle/Desktop/IOS%20%22TimeOut%22/TimeOut/TimeOut/SettingsView.swift"
+                  timestampString = "438656948.533395"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "308">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TimeOut.SettingsView.init (TimeOut.SettingsView.Type)(coder : ObjectiveC.NSCoder) -&gt; TimeOut.SettingsView"
+                  moduleName = "TimeOut"
+                  urlString = "file:///Users/shinycroospulle/Desktop/IOS%20%22TimeOut%22/TimeOut/TimeOut/SettingsView.swift"
+                  timestampString = "438656948.533577"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "319">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

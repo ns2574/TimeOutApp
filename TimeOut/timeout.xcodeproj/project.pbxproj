@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3886A5341A25438A0086573C /* ActualLaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3886A5331A25438A0086573C /* ActualLaunchScreen.png */; };
+		3886A5361A2544410086573C /* Launchimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3886A5351A2544410086573C /* Launchimage.png */; };
+		3886A5391A2544670086573C /* launchimage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3886A5371A2544670086573C /* launchimage2.png */; };
+		3886A53A1A2544670086573C /* launchimage3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3886A5381A2544670086573C /* launchimage3.png */; };
+		3886A53F1A2565550086573C /* QandAController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886A53E1A2565550086573C /* QandAController.swift */; };
+		6C1524851A1FE3F8005945BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1524841A1FE3F8005945BE /* AppDelegate.swift */; };
+		6C1524871A1FE3F8005945BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1524861A1FE3F8005945BE /* ViewController.swift */; };
+		6C15248C1A1FE3F8005945BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C15248B1A1FE3F8005945BE /* Images.xcassets */; };
+		6C15248F1A1FE3F8005945BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C15248D1A1FE3F8005945BE /* LaunchScreen.xib */; };
+		6C15249B1A1FE3F8005945BE /* TimeOutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C15249A1A1FE3F8005945BE /* TimeOutTests.swift */; };
+		6C1524A91A22699F005945BE /* MoralTableVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1524A81A22699F005945BE /* MoralTableVIew.swift */; };
+		6C1524AB1A226A26005945BE /* Moral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1524AA1A226A26005945BE /* Moral.swift */; };
+		6C1524E91A226BED005945BE /* HurtOthers.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6C1524D01A226BED005945BE /* HurtOthers.mp4 */; };
+		6C1524EA1A226BED005945BE /* TheRabbitTheTortoise.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6C1524D21A226BED005945BE /* TheRabbitTheTortoise.mp4 */; };
+		6C1524EB1A226BED005945BE /* TheUglyDuckling.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6C1524D31A226BED005945BE /* TheUglyDuckling.mp4 */; };
+		6C1524EC1A226BED005945BE /* GodSeesEverything.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6C1524D51A226BED005945BE /* GodSeesEverything.mp4 */; };
+		6C1524EE1A226BED005945BE /* ThreeLittlePigs.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6C1524D81A226BED005945BE /* ThreeLittlePigs.mp4 */; };
+		6C1524EF1A226BED005945BE /* GirlsCanDoItToo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6C1524DA1A226BED005945BE /* GirlsCanDoItToo.mp4 */; };
+		6C1524F01A226BED005945BE /* TheHunterThePigeons.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6C1524DC1A226BED005945BE /* TheHunterThePigeons.mp4 */; };
+		6C1524F11A226BED005945BE /* HelpThoseInNeed.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6C1524DE1A226BED005945BE /* HelpThoseInNeed.mp4 */; };
+		6C1524F21A226BED005945BE /* TheAntAndTheDove.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6C1524DF1A226BED005945BE /* TheAntAndTheDove.mp4 */; };
+		6C1524F31A226BED005945BE /* TheLionAndTheMouse.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6C1524E01A226BED005945BE /* TheLionAndTheMouse.mp4 */; };
+		6C1524F41A226BED005945BE /* PostponeForTomorrow.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6C1524E21A226BED005945BE /* PostponeForTomorrow.mp4 */; };
+		6C1524F51A226BED005945BE /* UprootBadHabits.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6C1524E31A226BED005945BE /* UprootBadHabits.mp4 */; };
+		6C1524F61A226BED005945BE /* FoxAndTheStork.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6C1524E51A226BED005945BE /* FoxAndTheStork.mp4 */; };
+		6C1524F71A226BED005945BE /* TheGrocerTheMoneyLender.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6C1524E61A226BED005945BE /* TheGrocerTheMoneyLender.mp4 */; };
+		6C1524F81A226BED005945BE /* TheBoyWhoCriedWolf.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6C1524E81A226BED005945BE /* TheBoyWhoCriedWolf.mp4 */; };
+		6C4FC8CA1A2316FF005A821C /* ContributeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4FC8C91A2316FF005A821C /* ContributeView.swift */; };
+		6C5E06521A2291800039DF3E /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5E06511A2291800039DF3E /* ParentViewController.swift */; };
+		6C5E06551A22B7550039DF3E /* backgroundmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C5E06541A22B7550039DF3E /* backgroundmusic.mp3 */; };
+		6C5E065F1A230D1D0039DF3E /* OptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5E065E1A230D1D0039DF3E /* OptionsView.swift */; };
+		6C5E06661A230F440039DF3E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C5E06601A230F440039DF3E /* icon.png */; };
+		6C5E06671A230F440039DF3E /* screen1.psd in Resources */ = {isa = PBXBuildFile; fileRef = 6C5E06611A230F440039DF3E /* screen1.psd */; };
+		6C5E06681A230F440039DF3E /* screen2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5E06621A230F440039DF3E /* screen2.jpg */; };
+		6C5E06691A230F440039DF3E /* screen3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5E06631A230F440039DF3E /* screen3.jpg */; };
+		6C5E066A1A230F440039DF3E /* screen4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6C5E06641A230F440039DF3E /* screen4.jpg */; };
+		6C5E066B1A230F440039DF3E /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C5E06651A230F440039DF3E /* start.png */; };
+		6C5E066D1A2311C80039DF3E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5E066C1A2311C80039DF3E /* SettingsView.swift */; };
+		C7A9B98C1A3FF85C00821580 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A9B98A1A3FF85C00821580 /* Main.storyboard */; };
+		C7A9B98E1A3FF9B300821580 /* moviePlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A9B98D1A3FF9B300821580 /* moviePlayerView.swift */; };
+		C7A9B9901A40A9EE00821580 /* ReadAlongTheBoyWhoCriedWolf(Lying).MP4 in Resources */ = {isa = PBXBuildFile; fileRef = C7A9B98F1A40A9EE00821580 /* ReadAlongTheBoyWhoCriedWolf(Lying).MP4 */; };
+		C7AC6CF61A3DF46600EC03BD /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C7AC6CF01A3DF46600EC03BD /* backButton.png */; };
+		C7AC6CF71A3DF46600EC03BD /* contributeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C7AC6CF11A3DF46600EC03BD /* contributeButton.png */; };
+		C7AC6CF81A3DF46600EC03BD /* goButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C7AC6CF21A3DF46600EC03BD /* goButton.png */; };
+		C7AC6CF91A3DF46600EC03BD /* moralListButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C7AC6CF31A3DF46600EC03BD /* moralListButton.png */; };
+		C7AC6CFA1A3DF46600EC03BD /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C7AC6CF41A3DF46600EC03BD /* playButton.png */; };
+		C7AC6CFB1A3DF46600EC03BD /* sendButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C7AC6CF51A3DF46600EC03BD /* sendButton.png */; };
+		C7AC6CFD1A3FD1BF00EC03BD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7AC6CFC1A3FD1BF00EC03BD /* AVFoundation.framework */; };
+		C7AC6CFF1A3FD1C700EC03BD /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7AC6CFE1A3FD1C700EC03BD /* AVKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C1524951A1FE3F8005945BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C1524771A1FE3F8005945BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C15247E1A1FE3F8005945BE;
+			remoteInfo = TimeOut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3886A5331A25438A0086573C /* ActualLaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ActualLaunchScreen.png; sourceTree = "<group>"; };
+		3886A5351A2544410086573C /* Launchimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launchimage.png; sourceTree = SOURCE_ROOT; };
+		3886A5371A2544670086573C /* launchimage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchimage2.png; sourceTree = SOURCE_ROOT; };
+		3886A5381A2544670086573C /* launchimage3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchimage3.png; sourceTree = SOURCE_ROOT; };
+		3886A53E1A2565550086573C /* QandAController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QandAController.swift; sourceTree = "<group>"; };
+		6C15247F1A1FE3F8005945BE /* TimeOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C1524831A1FE3F8005945BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C1524841A1FE3F8005945BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C1524861A1FE3F8005945BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C15248B1A1FE3F8005945BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TimeOut/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		6C15248E1A1FE3F8005945BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6C1524941A1FE3F8005945BE /* TimeOutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeOutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C1524991A1FE3F8005945BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C15249A1A1FE3F8005945BE /* TimeOutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOutTests.swift; sourceTree = "<group>"; };
+		6C1524A81A22699F005945BE /* MoralTableVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoralTableVIew.swift; sourceTree = "<group>"; };
+		6C1524AA1A226A26005945BE /* Moral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moral.swift; sourceTree = "<group>"; };
+		6C1524D01A226BED005945BE /* HurtOthers.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = HurtOthers.mp4; path = "Hurting others/HurtOthers.mp4"; sourceTree = SOURCE_ROOT; };
+		6C1524D21A226BED005945BE /* TheRabbitTheTortoise.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = TheRabbitTheTortoise.mp4; path = "Teasing others/TheRabbitTheTortoise.mp4"; sourceTree = SOURCE_ROOT; };
+		6C1524D31A226BED005945BE /* TheUglyDuckling.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = TheUglyDuckling.mp4; path = "Teasing others/TheUglyDuckling.mp4"; sourceTree = SOURCE_ROOT; };
+		6C1524D51A226BED005945BE /* GodSeesEverything.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = GodSeesEverything.mp4; path = Stealing/GodSeesEverything.mp4; sourceTree = SOURCE_ROOT; };
+		6C1524D81A226BED005945BE /* ThreeLittlePigs.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = ThreeLittlePigs.mp4; path = "Educational Lessons/ThreeLittlePigs.mp4"; sourceTree = SOURCE_ROOT; };
+		6C1524DA1A226BED005945BE /* GirlsCanDoItToo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = GirlsCanDoItToo.mp4; path = Equality/GirlsCanDoItToo.mp4; sourceTree = SOURCE_ROOT; };
+		6C1524DC1A226BED005945BE /* TheHunterThePigeons.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = TheHunterThePigeons.mp4; path = "Working together/TheHunterThePigeons.mp4"; sourceTree = SOURCE_ROOT; };
+		6C1524DE1A226BED005945BE /* HelpThoseInNeed.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = HelpThoseInNeed.mp4; path = "Help others/HelpThoseInNeed.mp4"; sourceTree = SOURCE_ROOT; };
+		6C1524DF1A226BED005945BE /* TheAntAndTheDove.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = TheAntAndTheDove.mp4; path = "Help others/TheAntAndTheDove.mp4"; sourceTree = SOURCE_ROOT; };
+		6C1524E01A226BED005945BE /* TheLionAndTheMouse.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = TheLionAndTheMouse.mp4; path = "Help others/TheLionAndTheMouse.mp4"; sourceTree = SOURCE_ROOT; };
+		6C1524E21A226BED005945BE /* PostponeForTomorrow.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = PostponeForTomorrow.mp4; path = "Bad Habits/PostponeForTomorrow.mp4"; sourceTree = SOURCE_ROOT; };
+		6C1524E31A226BED005945BE /* UprootBadHabits.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = UprootBadHabits.mp4; path = "Bad Habits/UprootBadHabits.mp4"; sourceTree = SOURCE_ROOT; };
+		6C1524E51A226BED005945BE /* FoxAndTheStork.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = FoxAndTheStork.mp4; path = "The Golden Rule/FoxAndTheStork.mp4"; sourceTree = SOURCE_ROOT; };
+		6C1524E61A226BED005945BE /* TheGrocerTheMoneyLender.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = TheGrocerTheMoneyLender.mp4; path = "The Golden Rule/TheGrocerTheMoneyLender.mp4"; sourceTree = SOURCE_ROOT; };
+		6C1524E81A226BED005945BE /* TheBoyWhoCriedWolf.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = TheBoyWhoCriedWolf.mp4; path = Lying/TheBoyWhoCriedWolf.mp4; sourceTree = SOURCE_ROOT; };
+		6C4FC8C91A2316FF005A821C /* ContributeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContributeView.swift; path = ../ContributeView.swift; sourceTree = "<group>"; };
+		6C5E06511A2291800039DF3E /* ParentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParentViewController.swift; path = ../ParentViewController.swift; sourceTree = "<group>"; };
+		6C5E06541A22B7550039DF3E /* backgroundmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundmusic.mp3; sourceTree = SOURCE_ROOT; };
+		6C5E065E1A230D1D0039DF3E /* OptionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OptionsView.swift; path = ../OptionsView.swift; sourceTree = "<group>"; };
+		6C5E06601A230F440039DF3E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		6C5E06611A230F440039DF3E /* screen1.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = screen1.psd; sourceTree = "<group>"; };
+		6C5E06621A230F440039DF3E /* screen2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screen2.jpg; sourceTree = "<group>"; };
+		6C5E06631A230F440039DF3E /* screen3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screen3.jpg; sourceTree = "<group>"; };
+		6C5E06641A230F440039DF3E /* screen4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = screen4.jpg; sourceTree = "<group>"; };
+		6C5E06651A230F440039DF3E /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		6C5E066C1A2311C80039DF3E /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C7A9B98B1A3FF85C00821580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = timeout/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		C7A9B98D1A3FF9B300821580 /* moviePlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = moviePlayerView.swift; sourceTree = "<group>"; };
+		C7A9B98F1A40A9EE00821580 /* ReadAlongTheBoyWhoCriedWolf(Lying).MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ReadAlongTheBoyWhoCriedWolf(Lying).MP4"; path = "../../All the vids/ReadAlongTheBoyWhoCriedWolf(Lying).MP4"; sourceTree = SOURCE_ROOT; };
+		C7AC6CF01A3DF46600EC03BD /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
+		C7AC6CF11A3DF46600EC03BD /* contributeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contributeButton.png; sourceTree = "<group>"; };
+		C7AC6CF21A3DF46600EC03BD /* goButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goButton.png; sourceTree = "<group>"; };
+		C7AC6CF31A3DF46600EC03BD /* moralListButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moralListButton.png; sourceTree = "<group>"; };
+		C7AC6CF41A3DF46600EC03BD /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton.png; sourceTree = "<group>"; };
+		C7AC6CF51A3DF46600EC03BD /* sendButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sendButton.png; sourceTree = "<group>"; };
+		C7AC6CFC1A3FD1BF00EC03BD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C7AC6CFE1A3FD1C700EC03BD /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C15247C1A1FE3F8005945BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7AC6CFF1A3FD1C700EC03BD /* AVKit.framework in Frameworks */,
+				C7AC6CFD1A3FD1BF00EC03BD /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C1524911A1FE3F8005945BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C1524761A1FE3F8005945BE = {
+			isa = PBXGroup;
+			children = (
+				C7AC6CFE1A3FD1C700EC03BD /* AVKit.framework */,
+				C7AC6CFC1A3FD1BF00EC03BD /* AVFoundation.framework */,
+				6C1524811A1FE3F8005945BE /* TimeOut */,
+				6C1524971A1FE3F8005945BE /* TimeOutTests */,
+				6C1524801A1FE3F8005945BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C1524801A1FE3F8005945BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C15247F1A1FE3F8005945BE /* TimeOut.app */,
+				6C1524941A1FE3F8005945BE /* TimeOutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C1524811A1FE3F8005945BE /* TimeOut */ = {
+			isa = PBXGroup;
+			children = (
+				C7A9B98A1A3FF85C00821580 /* Main.storyboard */,
+				6C1524841A1FE3F8005945BE /* AppDelegate.swift */,
+				6C1524861A1FE3F8005945BE /* ViewController.swift */,
+				6C5E06511A2291800039DF3E /* ParentViewController.swift */,
+				6C1524AA1A226A26005945BE /* Moral.swift */,
+				6C1524A81A22699F005945BE /* MoralTableVIew.swift */,
+				C7A9B98D1A3FF9B300821580 /* moviePlayerView.swift */,
+				6C5E065E1A230D1D0039DF3E /* OptionsView.swift */,
+				6C5E066C1A2311C80039DF3E /* SettingsView.swift */,
+				6C4FC8C91A2316FF005A821C /* ContributeView.swift */,
+				3886A53E1A2565550086573C /* QandAController.swift */,
+				6C15248B1A1FE3F8005945BE /* Images.xcassets */,
+				6C15248D1A1FE3F8005945BE /* LaunchScreen.xib */,
+				6C1524A41A1FE411005945BE /* Images */,
+				6C1524821A1FE3F8005945BE /* Supporting Files */,
+			);
+			path = TimeOut;
+			sourceTree = "<group>";
+		};
+		6C1524821A1FE3F8005945BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7A9B98F1A40A9EE00821580 /* ReadAlongTheBoyWhoCriedWolf(Lying).MP4 */,
+				6C1524E51A226BED005945BE /* FoxAndTheStork.mp4 */,
+				6C1524DA1A226BED005945BE /* GirlsCanDoItToo.mp4 */,
+				6C1524D51A226BED005945BE /* GodSeesEverything.mp4 */,
+				6C1524DE1A226BED005945BE /* HelpThoseInNeed.mp4 */,
+				6C1524D01A226BED005945BE /* HurtOthers.mp4 */,
+				6C1524E21A226BED005945BE /* PostponeForTomorrow.mp4 */,
+				6C1524DF1A226BED005945BE /* TheAntAndTheDove.mp4 */,
+				6C1524E81A226BED005945BE /* TheBoyWhoCriedWolf.mp4 */,
+				6C1524E61A226BED005945BE /* TheGrocerTheMoneyLender.mp4 */,
+				6C1524DC1A226BED005945BE /* TheHunterThePigeons.mp4 */,
+				6C1524E01A226BED005945BE /* TheLionAndTheMouse.mp4 */,
+				6C1524D21A226BED005945BE /* TheRabbitTheTortoise.mp4 */,
+				6C1524D31A226BED005945BE /* TheUglyDuckling.mp4 */,
+				6C1524D81A226BED005945BE /* ThreeLittlePigs.mp4 */,
+				6C1524E31A226BED005945BE /* UprootBadHabits.mp4 */,
+				6C5E06541A22B7550039DF3E /* backgroundmusic.mp3 */,
+				6C1524831A1FE3F8005945BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C1524971A1FE3F8005945BE /* TimeOutTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C15249A1A1FE3F8005945BE /* TimeOutTests.swift */,
+				6C1524981A1FE3F8005945BE /* Supporting Files */,
+			);
+			path = TimeOutTests;
+			sourceTree = "<group>";
+		};
+		6C1524981A1FE3F8005945BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C1524991A1FE3F8005945BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C1524A41A1FE411005945BE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C7AC6CF01A3DF46600EC03BD /* backButton.png */,
+				C7AC6CF11A3DF46600EC03BD /* contributeButton.png */,
+				C7AC6CF21A3DF46600EC03BD /* goButton.png */,
+				C7AC6CF31A3DF46600EC03BD /* moralListButton.png */,
+				C7AC6CF41A3DF46600EC03BD /* playButton.png */,
+				C7AC6CF51A3DF46600EC03BD /* sendButton.png */,
+				3886A5351A2544410086573C /* Launchimage.png */,
+				3886A5371A2544670086573C /* launchimage2.png */,
+				3886A5381A2544670086573C /* launchimage3.png */,
+				3886A5331A25438A0086573C /* ActualLaunchScreen.png */,
+				6C5E06601A230F440039DF3E /* icon.png */,
+				6C5E06611A230F440039DF3E /* screen1.psd */,
+				6C5E06621A230F440039DF3E /* screen2.jpg */,
+				6C5E06631A230F440039DF3E /* screen3.jpg */,
+				6C5E06641A230F440039DF3E /* screen4.jpg */,
+				6C5E06651A230F440039DF3E /* start.png */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C15247E1A1FE3F8005945BE /* TimeOut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C15249E1A1FE3F8005945BE /* Build configuration list for PBXNativeTarget "TimeOut" */;
+			buildPhases = (
+				6C15247B1A1FE3F8005945BE /* Sources */,
+				6C15247C1A1FE3F8005945BE /* Frameworks */,
+				6C15247D1A1FE3F8005945BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeOut;
+			productName = TimeOut;
+			productReference = 6C15247F1A1FE3F8005945BE /* TimeOut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C1524931A1FE3F8005945BE /* TimeOutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C1524A11A1FE3F8005945BE /* Build configuration list for PBXNativeTarget "TimeOutTests" */;
+			buildPhases = (
+				6C1524901A1FE3F8005945BE /* Sources */,
+				6C1524911A1FE3F8005945BE /* Frameworks */,
+				6C1524921A1FE3F8005945BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C1524961A1FE3F8005945BE /* PBXTargetDependency */,
+			);
+			name = TimeOutTests;
+			productName = TimeOutTests;
+			productReference = 6C1524941A1FE3F8005945BE /* TimeOutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C1524771A1FE3F8005945BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Niela Sultana";
+				TargetAttributes = {
+					6C15247E1A1FE3F8005945BE = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 6QN349HHUB;
+					};
+					6C1524931A1FE3F8005945BE = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 6C15247E1A1FE3F8005945BE;
+					};
+				};
+			};
+			buildConfigurationList = 6C15247A1A1FE3F8005945BE /* Build configuration list for PBXProject "timeout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C1524761A1FE3F8005945BE;
+			productRefGroup = 6C1524801A1FE3F8005945BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C15247E1A1FE3F8005945BE /* TimeOut */,
+				6C1524931A1FE3F8005945BE /* TimeOutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C15247D1A1FE3F8005945BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C5E066A1A230F440039DF3E /* screen4.jpg in Resources */,
+				3886A5361A2544410086573C /* Launchimage.png in Resources */,
+				C7AC6CF71A3DF46600EC03BD /* contributeButton.png in Resources */,
+				C7AC6CFB1A3DF46600EC03BD /* sendButton.png in Resources */,
+				3886A5391A2544670086573C /* launchimage2.png in Resources */,
+				6C1524F01A226BED005945BE /* TheHunterThePigeons.mp4 in Resources */,
+				6C1524F41A226BED005945BE /* PostponeForTomorrow.mp4 in Resources */,
+				6C1524F51A226BED005945BE /* UprootBadHabits.mp4 in Resources */,
+				6C1524F11A226BED005945BE /* HelpThoseInNeed.mp4 in Resources */,
+				6C1524EE1A226BED005945BE /* ThreeLittlePigs.mp4 in Resources */,
+				C7AC6CF81A3DF46600EC03BD /* goButton.png in Resources */,
+				6C1524EA1A226BED005945BE /* TheRabbitTheTortoise.mp4 in Resources */,
+				C7A9B9901A40A9EE00821580 /* ReadAlongTheBoyWhoCriedWolf(Lying).MP4 in Resources */,
+				6C1524F21A226BED005945BE /* TheAntAndTheDove.mp4 in Resources */,
+				6C1524EC1A226BED005945BE /* GodSeesEverything.mp4 in Resources */,
+				C7A9B98C1A3FF85C00821580 /* Main.storyboard in Resources */,
+				6C1524E91A226BED005945BE /* HurtOthers.mp4 in Resources */,
+				6C1524F61A226BED005945BE /* FoxAndTheStork.mp4 in Resources */,
+				6C1524F81A226BED005945BE /* TheBoyWhoCriedWolf.mp4 in Resources */,
+				3886A5341A25438A0086573C /* ActualLaunchScreen.png in Resources */,
+				6C15248F1A1FE3F8005945BE /* LaunchScreen.xib in Resources */,
+				6C1524EB1A226BED005945BE /* TheUglyDuckling.mp4 in Resources */,
+				6C1524F31A226BED005945BE /* TheLionAndTheMouse.mp4 in Resources */,
+				6C5E06681A230F440039DF3E /* screen2.jpg in Resources */,
+				C7AC6CF91A3DF46600EC03BD /* moralListButton.png in Resources */,
+				3886A53A1A2544670086573C /* launchimage3.png in Resources */,
+				6C5E066B1A230F440039DF3E /* start.png in Resources */,
+				6C5E06691A230F440039DF3E /* screen3.jpg in Resources */,
+				6C15248C1A1FE3F8005945BE /* Images.xcassets in Resources */,
+				6C5E06671A230F440039DF3E /* screen1.psd in Resources */,
+				6C5E06661A230F440039DF3E /* icon.png in Resources */,
+				6C5E06551A22B7550039DF3E /* backgroundmusic.mp3 in Resources */,
+				6C1524F71A226BED005945BE /* TheGrocerTheMoneyLender.mp4 in Resources */,
+				6C1524EF1A226BED005945BE /* GirlsCanDoItToo.mp4 in Resources */,
+				C7AC6CFA1A3DF46600EC03BD /* playButton.png in Resources */,
+				C7AC6CF61A3DF46600EC03BD /* backButton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C1524921A1FE3F8005945BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C15247B1A1FE3F8005945BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C5E066D1A2311C80039DF3E /* SettingsView.swift in Sources */,
+				6C4FC8CA1A2316FF005A821C /* ContributeView.swift in Sources */,
+				C7A9B98E1A3FF9B300821580 /* moviePlayerView.swift in Sources */,
+				6C1524A91A22699F005945BE /* MoralTableVIew.swift in Sources */,
+				6C5E06521A2291800039DF3E /* ParentViewController.swift in Sources */,
+				6C1524AB1A226A26005945BE /* Moral.swift in Sources */,
+				6C1524871A1FE3F8005945BE /* ViewController.swift in Sources */,
+				6C5E065F1A230D1D0039DF3E /* OptionsView.swift in Sources */,
+				6C1524851A1FE3F8005945BE /* AppDelegate.swift in Sources */,
+				3886A53F1A2565550086573C /* QandAController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C1524901A1FE3F8005945BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C15249B1A1FE3F8005945BE /* TimeOutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C1524961A1FE3F8005945BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C15247E1A1FE3F8005945BE /* TimeOut */;
+			targetProxy = 6C1524951A1FE3F8005945BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C15248D1A1FE3F8005945BE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C15248E1A1FE3F8005945BE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		C7A9B98A1A3FF85C00821580 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7A9B98B1A3FF85C00821580 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C15249C1A1FE3F8005945BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C15249D1A1FE3F8005945BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C15249F1A1FE3F8005945BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TimeOut/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C1524A01A1FE3F8005945BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TimeOut/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6C1524A21A1FE3F8005945BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TimeOutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeOut.app/TimeOut";
+			};
+			name = Debug;
+		};
+		6C1524A31A1FE3F8005945BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TimeOutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeOut.app/TimeOut";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C15247A1A1FE3F8005945BE /* Build configuration list for PBXProject "timeout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C15249C1A1FE3F8005945BE /* Debug */,
+				6C15249D1A1FE3F8005945BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C15249E1A1FE3F8005945BE /* Build configuration list for PBXNativeTarget "TimeOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C15249F1A1FE3F8005945BE /* Debug */,
+				6C1524A01A1FE3F8005945BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C1524A11A1FE3F8005945BE /* Build configuration list for PBXNativeTarget "TimeOutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C1524A21A1FE3F8005945BE /* Debug */,
+				6C1524A31A1FE3F8005945BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C1524771A1FE3F8005945BE /* Project object */;
+}
